@@ -14,7 +14,8 @@ def randomword(length):
 def driver():
     driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()))
     driver.get("https://stellarburgers.nomoreparties.site/")
-    return driver
+    yield driver   
+    driver.quit()
 
 @pytest.fixture
 def credentials():

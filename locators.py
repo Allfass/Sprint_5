@@ -7,3 +7,4 @@ class Locator():
     REGISTRATION_COMMIT_BUTTON="//button[contains(text(), 'Зарегистрироваться')]"
     LOGIN_BUTTON="//button[contains(text(), 'Войти')]"
     CREATE_ORDER_BUTTON="//button[contains(text(), 'Оформить заказ')]"
+    ERROR_LABEL="p.input__error"
