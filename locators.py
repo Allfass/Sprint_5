@@ -15,3 +15,12 @@ class Locator():
     CONSTRUCTOR_BUTTON="//a[contains(@href, '/')]"
     STELLAR_BURGET_BUTTON=["//div[contains(@class, 'AppHeader_header__logo__2D0X2')]",\
                            "//a[contains(@href, '/')]"]
+    SAUCESS_BUTTON="//span[contains(text(), 'Соусы')]"
+    FILLINGS_BUTTON="//span[contains(text(), 'Начинки')]"
+    ROLLS_BUTTON="//span[contains(text(), 'Булки')]"
+    PARENT_DIV_OF_SAUCESS_BUTTON=["//div[contains(@class, 'tab_tab_type_current__2BEPc')]",\
+                                  "//span[contains(text(), 'Соусы')]"]
+    PARENT_DIV_OF_FILLINGS_BUTTON=["//div[contains(@class, 'tab_tab_type_current__2BEPc')]",\
+                                   "//span[contains(text(), 'Начинки')]"]
+    PARENT_DIV_OF_ROLLS_BUTTON=["//div[contains(@class, 'tab_tab_type_current__2BEPc')]",\
+                                "//span[contains(text(), 'Булки')]"]
