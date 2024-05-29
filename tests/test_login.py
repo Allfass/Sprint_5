@@ -3,7 +3,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.common.by import By
 from locators import Locator
 
-class TestRegistration():
+class TestLogin():
 
     def test_login_from_main_page_successful(self, driver, credentials):
         WebDriverWait(driver, 10).until(expected_conditions.visibility_of_element_located((By.XPATH, Locator.ENTER_ACCOUNT)))
