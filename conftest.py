@@ -18,9 +18,17 @@ def driver():
     driver.quit()
 
 @pytest.fixture
-def credentials():
+def random_credentials():
     credentials = {}
     credentials['user'] = f'{randomword(8)}'
     credentials['mail'] = f'{randomword(8)}@ya.ru'
     credentials['password'] = f'{randint(1000000, 9999999)}'
+    return credentials
+
+@pytest.fixture
+def credentials():
+    credentials = {}
+    credentials['user'] = 'tester_123123'
+    credentials['mail'] = 'tester_123123@mail.ru'
+    credentials['password'] = 'tester_123123'
     return credentials

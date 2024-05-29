@@ -8,3 +8,6 @@ class Locator():
     LOGIN_BUTTON="//button[contains(text(), 'Войти')]"
     CREATE_ORDER_BUTTON="//button[contains(text(), 'Оформить заказ')]"
     ERROR_LABEL="p.input__error"
+    ENTER_ACCOUNT="//button[contains(text(), 'Войти в аккаунт')]"
+    ENTER_ACCOUNT_BUTTON="//a[contains(@href, '/login')]"
+    FORGOT_PASSWORD_BUTTON="//a[contains(@href, '/forgot-password')]"
